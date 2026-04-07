@@ -45,4 +45,20 @@ Embora seja possível definir múltiplas variáveis em um único comando, é mel
 
 Uma variável que não recebeu um valor é chamada de **variável não inicializada**. Tentar obter o valor de uma variável não inicializada irá resultar em **comportamento indefinido**, que pode se manifestar em várias maneiras.
 
-C++ reserva uma lista de nomes chamados de **palavras-chaves**. Estes nomes possuem significado especial dentro da linguagem e não podem ser
+C++ reserva uma lista de nomes chamados de **palavras-chaves**. Estes nomes possuem significado especial dentro da linguagem e não podem ser usadas como nomes de variáveis.
+
+Uma **constante literal** é um valor fixo inserido diretamente no código-fonte.
+
+Uma **operação** é um processo envolvendo nenhum ou mais valores de entrada, chamados **operandos**. A operação específica a ser realizada é denotada pelo **operador**. O resultado de uma operaão produz um valor de saída.
+
+Operadores **unários** usam um operando. Operadores **binários** usam dois operandos, chamados de esquerda e direita. Operadores **terciários** usam três operandos. Operadores **nulários** usam nenhum operando.
+
+Uma **expressão** é uma sequência de literais, variáveis, operadores e chamadas de funções que são avaliadas para produzir um único valor de saída. O cálculo deste valor é chamado de **avaliação**. O valor produzido é o **resultado** da expressão.
+
+Um **comando de expressão** é uma expressão transformada em um comando através do ponto e vírgula ao final.
+
+Ao escrever programas, adicione algumas linhas ou uma função, compile, resolva qualquer erro, e tenha certeza de que funciona. Não espere até que tenha escrito o programa inteiro antes de compilar pela primeira vez.
+
+Foque em fazer seu código funcionar. Quando tiver certeza de que irá manter uma parte de código, então use seu tempo removendo ou comentando códigos temporários e fazendo a debugagem, adicionando comentários, formatando seu código, ajustando-o para boas práticas, etc...
+
+Os primeiros programas sempre são confusos e imperfeitos. A maioria dos códigos por aí precisam de limpeza e refinamento para se tornarem códigos excelentes!
