@@ -1,0 +1,19 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnSave": true
+    },
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "files.exclude": {
+        "**/*.exe": true,
+        "**/*.o": true
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "cpp": "chcp 65001 > $null ; cls ; g++ $fileName -o $fileNameWithoutExt ; ./$fileNameWithoutExt"
+    }
+}
